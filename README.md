@@ -1,37 +1,23 @@
-# Code Summarization API
+# Code Summarization llm
 
 This project implements a FastAPI-based API for summarizing code using OpenAI's GPT-3.5-turbo model.
 
-![Image description](llm/img.png)
 
-## Getting Started
+# ![Image description](llm/img.png)
 
-### Prerequisites
 
-- [Node.js](https://nodejs.org/)
-- [Python](https://www.python.org/) (v3.6 or higher)
 
-### Installation
+## Create a .env file in the project root directory and add your OpenAI API key:
 
-1. Clone the repository:
+OPENAI_API_KEY=your-api-key-here
 
-    ```bash
-    git clone <repository-url>
-    ```
 
-2. Install dependencies:
+## Run the application:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Create a `.env` file in the project root directory and add your OpenAI API key:
-
-    ```env
-    OPENAI_API_KEY=your-api-key-here
-    ```
-
-### Running the Application
-
-```bash
 uvicorn main:app --host 0.0.0.0 --port 8001 --reload
+
+
+## License
+
+This project is licensed under the MIT License.
+ is this correct
